@@ -7,7 +7,10 @@
 function printPronoun($pronoun, $sentences) {
     print '<h1>'.$pronoun."</h1>\n";
 
+    print '<p>Como se usa:
+<ul>';
     foreach($sentences as $sentence) {
-        print '<p>'.$sentence."\n";
+        print '<li>'.$sentence."</li>\n";
     }
+    print '</ul>';
 }
