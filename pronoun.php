@@ -8,7 +8,7 @@ function printPronoun($pronoun, $sentences, $pronounciation = null) {
     print '<h1>'.$pronoun."</h1>\n";
 
     if($pronounciation != null) {
-        print '<p><h2>Pronunciación:</h2> '. $pronounciation ."\n";
+        print '<p><h2 style="display: inline;">Pronunciación:</h2> '. $pronounciation ."\n";
     }
 
     print '<p>Como se usa:
