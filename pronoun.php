@@ -4,8 +4,12 @@
  * This prints out the pronoun nicely formatted, as well as each
  * of the sentences.
  */
-function printPronoun($pronoun, $sentences) {
+function printPronoun($pronoun, $sentences, $pronounciation = null) {
     print '<h1>'.$pronoun."</h1>\n";
+
+    if($pronounciation != null) {
+        print '<p><h2>Pronunciación:</h2> '. $pronounciation ."\n";
+    }
 
     print '<p>Como se usa:
 <ul>';
